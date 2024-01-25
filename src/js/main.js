@@ -21,12 +21,6 @@ const stripLinks = function(){
     const bgm = new Bgm("canvas#bg");
     document.addEventListener("DOMContentLoaded", function(){
         bgm.init();
-        document.querySelector('a[href="/wiki"]')?.addEventListener("click", function(e){
-            e.preventDefault();
-            // eslint-disable-next-line no-alert
-            alert("Soon!");
-        });
-
         stripLinks();
     });
 })();
