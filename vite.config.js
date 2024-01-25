@@ -30,6 +30,7 @@ export default {
     build: {
         minify: "terser",
         cssMinify: "lightningcss",
+        emptyOutDir: false,
     },
     plugins: [{
         name: "post-build",
