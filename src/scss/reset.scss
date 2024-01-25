@@ -1,0 +1,30 @@
+/* ========================= */
+/* = Copyright (c) NullDev = */
+/* ========================= */
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+h1, h2, h4 {
+    font-weight: lighter;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h4 {
+    -webkit-font-smoothing: antialiased
+}
