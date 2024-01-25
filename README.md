@@ -4,7 +4,7 @@
 [![Terser](https://img.shields.io/badge/Terser-ff6b00.svg)](https://terser.org/)
 [![LightningCSS](https://img.shields.io/badge/LightningCSS-ffcb4e.svg)](https://lightningcss.dev/)
 
-<p align="center"><a href="https://arithmetica.xyz"><img height="200" width="auto" src="/public/img/logo.png" /></a></p>
+<p align="center"><a href="https://arithmetica.xyz"><img height="200" width="auto" src="/public/img/img.png" /></a></p>
 <p align="center"><b>Source Code for <a href="https://arithmetica.xyz">arithmetica.xyz</a></b></p>
 
 <hr>
