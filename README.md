@@ -5,7 +5,7 @@
 [![LightningCSS](https://img.shields.io/badge/LightningCSS-ffcb4e.svg)](https://lightningcss.dev/)
 
 <p align="center"><a href="https://arithmetica.xyz"><img height="200" width="auto" src="/public/img/img.png" /></a></p>
-<p align="center"><b>Source Code for <a href="https://arithmetica.xyz">arithmetica.xyz</a></b></p>
+<p align="center"><b>Source Code for <a href="https://arithmetica.xyz">arithmetica.xyz</a><br><a href="https://github.com/NullDev/Arithmetica-Bot">https://github.com/NullDev/Arithmetica-Bot</a></b></p>
 
 <hr>
 
