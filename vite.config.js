@@ -6,6 +6,8 @@ import prependFile from "prepend-file";
 /* = Copyright (c) NullDev = */
 /* ========================= */
 
+const navigator = global.navigator || {};
+
 // @ts-ignore
 if (!navigator.userAgent) navigator.userAgent = "";
 
