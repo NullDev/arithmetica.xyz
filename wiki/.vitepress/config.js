@@ -12,9 +12,16 @@ export default defineConfig({
             { text: "Installation", link: "/installation/invite" },
             { text: "Commands", link: "/commands/overview" },
             { text: "Maths", link: "/usage/usage" },
+            { text: "Invite", link: "https://discordapp.com/oauth2/authorize?client_id=1108279646165942363&scope=bot&permissions=1099511655488" },
         ],
 
         sidebar: [
+            {
+                text: "Home",
+                items: [
+                    { text: "Home", link: "/" },
+                ],
+            },
             {
                 text: "Installation",
                 items: [
