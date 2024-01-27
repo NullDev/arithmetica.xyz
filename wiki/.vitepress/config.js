@@ -9,21 +9,38 @@ export default defineConfig({
     themeConfig: {
         nav: [
             { text: "Home", link: "/" },
-            { text: "Examples", link: "/markdown-examples" },
+            { text: "Installation", link: "/installation/invite" },
+            { text: "Commands", link: "/commands/overview" },
+            { text: "Maths", link: "/usage/usage" },
         ],
 
         sidebar: [
             {
-                text: "Examples",
+                text: "Installation",
                 items: [
-                    { text: "Markdown Examples", link: "/markdown-examples" },
-                    { text: "Runtime API Examples", link: "/api-examples" },
+                    { text: "Invite", link: "/installation/invite" },
+                    { text: "Selfhosted", link: "/installation/self" },
+                    { text: "Starter Guide", link: "/installation/guide" },
+                ],
+            },
+            {
+                text: "Commands",
+                items: [
+                    { text: "Overview", link: "/commands/overview" },
+                    { text: "Admin", link: "/commands/admin" },
+                    { text: "User", link: "/commands/user" },
+                ],
+            },
+            {
+                text: "Usage",
+                items: [
+                    { text: "Usage", link: "/usage/usage" },
                 ],
             },
         ],
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/vuejs/vitepress" },
+            { icon: "github", link: "https://github.com/NullDev/Arithmetica-Bot" },
         ],
     },
 });
