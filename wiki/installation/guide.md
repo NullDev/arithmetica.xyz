@@ -1,11 +1,11 @@
 # Starter Guide
-On this page you will a short overview of a few settings you should take a look at before releasing the bot to your users!
+On this page you will get a short overview of a few settings you should take a look at before releasing the bot to your users!
 
 Set the channel in which your users should count! `/set-channel <channel>`
 
 Change the language of the bot if neccessary by using `/set-language <language>`. You have a few options that are defined in [Admin Commands](../commands/admin).
 
-Do you want to reset the count every time a user fails? `/cheatmode <True | False>`
+Do you want to reset the count every time a user fails? `/cheat-mode <True | False>`
 
 Set a cooldown so spammers and trollers don't have a chance to ruin your streak! `/cooldown <cooldown in minutes | default: 60>`
 
