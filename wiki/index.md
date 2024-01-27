@@ -1,25 +1,27 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Arithmetica Wiki"
   text: "Setup and Information about Arithmetica"
-  tagline: My great project tagline
+  tagline: Wiki for the Math (counting) Bot Arithmetica
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Invite
+      link: https://discordapp.com/oauth2/authorize?client_id=1108279646165942363&scope=bot&permissions=1099511655488
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Installation
+      link: /installation/invite
+    - theme: alt
+      text: Bot commands
+      link: /commands/overview
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Test your math skills
+    details: Our evaluation system lets you do almost whatever you want! Functions? No problem! 
+  - title: Count without the fear of failing
+    details: Using the cheat-mode allows you to never lose your streak!
+  - title: Protection against spammers and trollers
+    details: Built-in timeout increment, ban users from counting and a cooldown before new members can count!
 ---
 
