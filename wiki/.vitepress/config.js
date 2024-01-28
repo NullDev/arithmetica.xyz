@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { execSync } from "node:child_process";
 
 export default defineConfig({
     title: "Arithmetica Wiki",
@@ -42,6 +43,12 @@ export default defineConfig({
                 text: "Usage",
                 items: [
                     { text: "Usage", link: "/usage/usage" },
+                ],
+            },
+            {
+                text: "Latest commit",
+                items: [
+                    { text: `${execSync("git rev-parse --short HEAD").toString().trimEnd()}`, link: `https://github.com/NullDev/arithmetica.xyz/commit/${execSync("git rev-parse HEAD").toString().trimEnd()}` },
                 ],
             },
         ],
