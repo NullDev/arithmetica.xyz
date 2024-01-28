@@ -137,3 +137,16 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * CUSTOM
+ * -------------------------------------------------------------------------- */
+
+#VPSidebarNav div.group:last-child {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--vp-sidebar-bg-color);
+}
+
+aside.VPSidebar.open #VPSidebarNav div.group:last-child {
+  width: 80%;
+}
