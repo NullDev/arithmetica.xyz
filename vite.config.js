@@ -33,6 +33,13 @@ export default {
         minify: "terser",
         cssMinify: "lightningcss",
         emptyOutDir: false,
+        rollupOptions: {
+            input: {
+                main: path.resolve("./index.html"),
+                tos: path.resolve("./tos/index.html"),
+                privacy: path.resolve("./privacy/index.html"),
+            },
+        },
     },
     plugins: [{
         name: "post-build",
