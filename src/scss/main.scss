@@ -84,6 +84,24 @@ li {
     margin: 10px 0;
 }
 
+.bottom-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+
+    a {
+        color: #FF3366;
+        text-decoration: none;
+        transition: 0.2s;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        
+        &:hover {
+            color: #FFF;
+        }
+    }
+}
+
 @supports ((-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))) {
     .content {
         backdrop-filter: blur(5px);
