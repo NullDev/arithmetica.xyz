@@ -1,4 +1,4 @@
-# nulldev.org
+# arithmetica.xyz
 
 [![Vite](https://img.shields.io/badge/Vite-747bff.svg)](https://vitejs.dev/)
 [![Terser](https://img.shields.io/badge/Terser-ff6b00.svg)](https://terser.org/)
