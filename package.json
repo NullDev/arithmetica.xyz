@@ -42,8 +42,8 @@
   },
   "homepage": "https://arithmetica.xyz/",
   "devDependencies": {
-    "@babel/core": "^7.23.7",
-    "@babel/eslint-parser": "^7.23.3",
+    "@babel/core": "^8.0.1",
+    "@babel/eslint-parser": "^8.0.1",
     "eslint": "^8.56.0",
     "lightningcss": "^1.23.0",
     "prepend-file": "^2.0.1",
